@@ -1,6 +1,6 @@
 controllers:
     resource: ../src/Controller/
     type: attribute
-default_route:
+demo_route:
     path: /demo
-    controller: App\Controller\DefaultController::DemoController
+    controller: 'App\Controller\DemoController::index'
